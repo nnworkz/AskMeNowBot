@@ -1,0 +1,18 @@
+{
+  "_comment1": "Supported types: Mysql, Npgsql",
+  "Database": "",
+  
+  "_comment2": "https://dev.mysql.com/doc/connector-net/en/connector-net-connections-string.html",
+  "ConnectionStringMySql": "server=127.0.0.1;uid=root;pwd=12345;database=test",
+  
+  "_comment3": "https://www.npgsql.org/doc/connection-string-parameters.html#basic-connection",
+  "ConnectionStringNpgsql": "Host=127.0.0.1;Port=5432;Database=test;Username=postgres;Password=12345",
+  
+  "_comment4": "https://generate-random.org/encryption-key-generator?bytes=24",
+  "EncryptionKey": "",
+
+  "BotUsername": "",
+  
+  "_comment5": "https://core.telegram.org/bots/tutorial#obtain-your-bot-token",
+  "Token": ""
+}
