@@ -42,16 +42,14 @@ public class Program
 
 			stopwatch.Stop();
 			logger.LogInformation("Enabled ({Seconds:F3} sec.)", stopwatch.Elapsed.TotalSeconds);
-
-			await Shutdown(cts);
 		}
 		catch (Exception exception)
 		{
 			logger?.LogError("Unhandled exception\n{exception}", exception);
-			await Shutdown(cts ?? new CancellationTokenSource());
 		}
 		finally
 		{
+			await Shutdown(cts ?? new CancellationTokenSource());
 			await Log.CloseAndFlushAsync();
 		}
 	}
