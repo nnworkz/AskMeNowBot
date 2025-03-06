@@ -19,13 +19,14 @@ public class Program
 	public static async Task Main()
 	{
 		var stopwatch = Stopwatch.StartNew();
-
+		
+		ServiceProvider? provider = null;
 		ILogger<Program>? logger = null;
 		CancellationTokenSource? cts = null;
 		
 		try
 		{
-			await using var provider = await DependencyInjection.Configure();
+			provider = await DependencyInjection.Configure();
 			
 			logger = provider.GetRequiredService<ILogger<Program>>();
 			cts = provider.GetRequiredService<CancellationTokenSource>();
@@ -51,6 +52,11 @@ public class Program
 		{
 			await Shutdown(cts ?? new CancellationTokenSource());
 			await Log.CloseAndFlushAsync();
+			
+			if (provider != null)
+			{
+				await provider.DisposeAsync();
+			}
 		}
 	}
 	
