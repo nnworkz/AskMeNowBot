@@ -16,10 +16,8 @@ cd askmenowbot
 ### ⚙️ Configuration
 
 -  Open `resources/config.json`
-
 -  Select a **database** (MySQL / PostgreSQL)
 -  Set **connection parameters**
-
 -  Generate an **encryption key**
 -  Enter the **bot username** and **token**
 
