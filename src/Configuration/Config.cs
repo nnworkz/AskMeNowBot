@@ -37,7 +37,7 @@ public class Config
 	
 	public static async Task<Config> Read()
 	{
-		await using var fileStream = File.OpenRead(@"..\..\..\resources\config.json");
+		await using var fileStream = File.OpenRead(@$"{AppContext.BaseDirectory}\..\..\..\resources\config.json");
 		var config = await JsonSerializer.DeserializeAsync<Config>(fileStream);
 
 		if (config == null)
