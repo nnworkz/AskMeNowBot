@@ -1,0 +1,1 @@
+SELECT EXISTS (SELECT 1 FROM links WHERE link = @link)

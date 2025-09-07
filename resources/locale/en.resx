@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <data name="Error" xml:space="preserve">
+        <value>*❌ There was an error*</value>
+    </data>
+    <data name="FilteredOut" xml:space="preserve">
+        <value>*❌ The text didn't pass the filters*</value>
+    </data>
+    <data name="Handling" xml:space="preserve">
+        <value>*Handling\.\.\.*</value>
+    </data>
+    <data name="AddReason" xml:space="preserve">
+        <value>Add reason</value>
+    </data>
+    <data name="Ban" xml:space="preserve">
+        <value>Ban</value>
+    </data>
+    <data name="BillInfo" xml:space="preserve">
+        <value>*🎫  {paymentName}*&#xA;&#xA;*Amount:* {amount}&#xA;*Subscription until:* {expiresAt}</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
+    <data name="CannotUseOwnLink" xml:space="preserve">
+        <value>*❌  You can't use your own link*</value>
+    </data>
+    <data name="ChooseChange" xml:space="preserve">
+        <value>*🗳️  Choose what you want to change*</value>
+    </data>
+    <data name="CommandNotFound" xml:space="preserve">
+        <value>*🔎  Command not found*</value>
+    </data>
+    <data name="CreateLink" xml:space="preserve">
+        <value>Create link</value>
+    </data>
+    <data name="Day" xml:space="preserve">
+        <value>{price} for 1 day</value>
+    </data>
+    <data name="DecryptionFailed" xml:space="preserve">
+        <value>*🧑🏻‍💻  Decryption failed: Invalid or corrupted data*</value>
+    </data>
+    <data name="EnterUserId" xml:space="preserve">
+        <value>*✍️  Specify user ID in the command*</value>
+    </data>
+    <data name="ExhaustedLimit" xml:space="preserve">
+        <value>*🕐  You have reached your daily limit*</value>
+    </data>
+    <data name="ExtendSubscription" xml:space="preserve">
+        <value>Extend subscription</value>
+    </data>
+    <data name="HalfYear" xml:space="preserve">
+        <value>{price} for 180 days</value>
+    </data>
+    <data name="InvalidLink" xml:space="preserve">
+        <value>*⚠️  Invalid link*</value>
+    </data>
+    <data name="IsBanned" xml:space="preserve">
+        <value>*🚫  The user has blocked you*&#xA;&#xA;*Reason:* {reason}</value>
+    </data>
+    <data name="InvalidValue" xml:space="preserve">
+        <value>*🔶  Invalid value*</value>
+    </data>
+    <data name="LinkName" xml:space="preserve">
+        <value>*🔗  Your link information*&#xA;&#xA;> `t.me/{name}?start={link}`&#xA;&#xA;*Uses:* {used}&#xA;*Max uses:* {maxUsages}&#xA;&#xA;*Active until:* {expiresAt}&#xA;*{activated}*</value>
+    </data>
+    <data name="Activated" xml:space="preserve">
+        <value>Activated</value>
+    </data>
+    <data name="Deactivated" xml:space="preserve">
+        <value>Deactivated</value>
+    </data>
+    <data name="Infinity" xml:space="preserve">
+        <value>ꝏ</value>
+    </data>
+    <data name="LinkToRecipient" xml:space="preserve">
+        <value>*⚠️  Use the recipient's link to send them an anonymous message*</value>
+    </data>
+    <data name="MessageCooldown" xml:space="preserve">
+        <value>*⌛  Wait {time} seconds before sending the next message*</value>
+    </data>
+    <data name="MessageIsTooLong" xml:space="preserve">
+        <value>*⚠️  Max message length: {length} characters*</value>
+    </data>
+    <data name="MessageSent" xml:space="preserve">
+        <value>*📤  Your anonymous message has been sent*</value>
+    </data>
+    <data name="MissingLinks" xml:space="preserve">
+        <value>*🔗  No links found*</value>
+    </data>
+    <data name="Month" xml:space="preserve">
+        <value>{price} for 30 days</value>
+    </data>
+    <data name="NewMessage" xml:space="preserve">
+        <value>*✉️  New anonymous message:*&#xA;&#xA;</value>
+    </data>
+    <data name="None" xml:space="preserve">
+        <value>None</value>
+    </data>
+    <data name="OnlySubscriber" xml:space="preserve">
+        <value>Subscribers only</value>
+    </data>
+    <data name="OnlyTextMessage" xml:space="preserve">
+        <value>*⚠️  Please send a text message only*</value>
+    </data>
+    <data name="Payment" xml:space="preserve">
+        <value>*💸  Payment — choose currency and payment method*</value>
+    </data>
+    <data name="ProfileInfo" xml:space="preserve">
+        <value>*👁️  All important information about your profile*&#xA;&#xA;*ID:* {userId}&#xA;*Registered:* {registeredAt}&#xA;&#xA;*Subscription until:* {expiresAt}&#xA;*Daily message limit:* {messagesToday}/{messagesLimit}</value>
+    </data>
+    <data name="Purchase" xml:space="preserve">
+        <value>Purchase</value>
+    </data>
+    <data name="PurchaseSubscription" xml:space="preserve">
+        <value>Buy subscription</value>
+    </data>
+    <data name="ReasonAdded" xml:space="preserve">
+        <value>*💬  Reason added*</value>
+    </data>
+    <data name="RecipientUnavailable" xml:space="preserve">
+        <value>*🛜  Recipient unavailable*</value>
+    </data>
+    <data name="RemoveReason" xml:space="preserve">
+        <value>Remove reason</value>
+    </data>
+    <data name="Respond" xml:space="preserve">
+        <value>Reply</value>
+    </data>
+    <data name="SelectLanguage" xml:space="preserve">
+        <value>*🌐  Choose a language*</value>
+    </data>
+    <data name="SendNewExpiresAt" xml:space="preserve">
+        <value>*🕐  Enter the new duration \(in days\) for the link*</value>
+    </data>
+    <data name="SendNewMaxUsages" xml:space="preserve">
+        <value>*🔢  Enter the new max number of uses*</value>
+    </data>
+    <data name="LinkLimit" xml:space="preserve">
+        <value>*🔗  You have reached the link limit*</value>
+    </data>
+    <data name="SendReason" xml:space="preserve">
+        <value>*💬  Enter the reason*</value>
+    </data>
+    <data name="SenderAlreadyBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Sender is already banned*</value>
+    </data>
+    <data name="SenderBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Sender has been banned*</value>
+    </data>
+    <data name="SenderNotBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Sender is not banned*</value>
+    </data>
+    <data name="SenderUnbanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Sender has been unbanned*</value>
+    </data>
+    <data name="ShareLink" xml:space="preserve">
+        <value>Share link</value>
+    </data>
+    <data name="SubmitYourMessage" xml:space="preserve">
+        <value>*✍️  Submit your anonymous message*</value>
+    </data>
+    <data name="Subscription" xml:space="preserve">
+        <value>*⭐  Subscription removes limits and unlocks extra features*</value>
+    </data>
+    <data name="SuccessfulPayment" xml:space="preserve">
+        <value>*💸  Payment successful\. Subscription activated\!* </value>
+    </data>
+    <data name="Unban" xml:space="preserve">
+        <value>Unban</value>
+    </data>
+    <data name="Week" xml:space="preserve">
+        <value>{price} for 7 days</value>
+    </data>
+    <data name="Year" xml:space="preserve">
+        <value>{price} for 365 days</value>
+    </data>
+    <data name="YourLink" xml:space="preserve">
+        <value>*🔗  Your anonymous message link*&#xA;&#xA;> `t.me/{name}?start={link}`</value>
+    </data>
+    <data name="YourLinks" xml:space="preserve">
+        <value>*Your links list*</value>
+    </data>
+    <data name="Edit" xml:space="preserve">
+        <value>Edit</value>
+    </data>
+    <data name="Deactivate" xml:space="preserve">
+        <value>Deactivate</value>
+    </data>
+    <data name="Remove" xml:space="preserve">
+        <value>Remove</value>
+    </data>
+    <data name="UsageCount" xml:space="preserve">
+        <value>Usage count</value>
+    </data>
+    <data name="ExpirationDate" xml:space="preserve">
+        <value>Expiration date</value>
+    </data>
+</root>

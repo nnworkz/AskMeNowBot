@@ -1,0 +1,63 @@
+Database:
+  # Supported types: MySql, PostgreSql
+  Type: "MySql"
+  
+  ConnectionStrings:
+    # https://dev.mysql.com/doc/connector-net/en/connector-net-connections-string.html
+    MySql: "server=127.0.0.1;uid=root;pwd=12345;database=test"
+    
+    # https://www.npgsql.org/doc/connection-string-parameters.html#basic-connection
+    PostgreSql: "Host=127.0.0.1;Port=5432;Database=test;Username=postgres;Password=12345"
+
+Bot:
+  Name: "test"
+  CommandPrefix: "/"
+  
+  # Cannot be more than 4000
+  MaxMessageLength: "4000"
+  MaxReasonLength: "200"
+  
+  Credentials:
+    # https://core.telegram.org/bots/tutorial#obtain-your-bot-token
+    # From @BotFather
+    Token: ""
+    
+  Limits:
+    MessagesPerDay:
+      Default: "10000"
+      Subscriber: "500"
+      
+    # in seconds
+    Cooldown:
+      Default: "0"
+      Subscriber: "10"
+
+Gemini:
+  # https://aistudio.google.com/apikey
+  Key: ""
+
+CryptoPay:
+  # https://help.crypt.bot/crypto-pay-api#authorizing-your-app
+  # From @CryptoBot
+  Token: ""
+  
+ExchangeRate:
+  # https://exchangerate.host/quickstart
+  AccessKey: ""
+  # in seconds
+  CachePeriod: "86400"
+
+Security:
+  # https://generate-random.org/encryption-key-generator?bytes=24
+  EncryptionKey: ""
+
+Prices:
+  # Supported currency: Usd, Rub
+  Currency: "Rub"
+  
+  Amounts:
+    Day: "40"
+    Week: "75"
+    Month: "150"
+    HalfYear: "560"
+    Year: "980"

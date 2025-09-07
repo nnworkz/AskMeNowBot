@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <data name="Error" xml:space="preserve">
+        <value>*❌ Произошла ошибка*</value>
+    </data>
+    <data name="FilteredOut" xml:space="preserve">
+        <value>*❌ Текст не прошел фильтры*</value>
+    </data>
+    <data name="Handling" xml:space="preserve">
+        <value>*Обработка\.\.\.*</value>
+    </data>
+    <data name="AddReason" xml:space="preserve">
+        <value>Добавить причину</value>
+    </data>
+    <data name="Ban" xml:space="preserve">
+        <value>Заблокировать</value>
+    </data>
+    <data name="BillInfo" xml:space="preserve">
+        <value>*🎫  {paymentName}*&#xA;&#xA;*Сумма:* {amount}&#xA;*Подписка до:* {expiresAt}</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Отмена</value>
+    </data>
+    <data name="CannotUseOwnLink" xml:space="preserve">
+        <value>*❌  Нельзя использовать собственную ссылку*</value>
+    </data>
+    <data name="ChooseChange" xml:space="preserve">
+        <value>*🗳️  Выберите, что хотите изменить*</value>
+    </data>
+    <data name="CommandNotFound" xml:space="preserve">
+        <value>*🔎  Команда не найдена*</value>
+    </data>
+    <data name="CreateLink" xml:space="preserve">
+        <value>Создать ссылку</value>
+    </data>
+    <data name="Day" xml:space="preserve">
+        <value>{price} за 1 день</value>
+    </data>
+    <data name="DecryptionFailed" xml:space="preserve">
+        <value>*🧑🏻‍💻  Расшифровка не удалась: Неверные или поврежденные данные*</value>
+    </data>
+    <data name="EnterUserId" xml:space="preserve">
+        <value>*✍️  Укажите ID пользователя в команде*</value>
+    </data>
+    <data name="ExhaustedLimit" xml:space="preserve">
+        <value>*🕐  Вы исчерпали дневной лимит*</value>
+    </data>
+    <data name="ExtendSubscription" xml:space="preserve">
+        <value>Продлить подписку</value>
+    </data>
+    <data name="HalfYear" xml:space="preserve">
+        <value>{price} за 180 дней</value>
+    </data>
+    <data name="InvalidLink" xml:space="preserve">
+        <value>*⚠️  Ссылка недействительна*</value>
+    </data>
+    <data name="IsBanned" xml:space="preserve">
+        <value>*🚫  Пользователь заблокировал вас*&#xA;&#xA;*Причина:* {reason}</value>
+    </data>
+    <data name="InvalidValue" xml:space="preserve">
+        <value>*🔶  Недопустимое значение*</value>
+    </data>
+    <data name="LinkName" xml:space="preserve">
+        <value>*🔗  Информация о вашей ссылке*&#xA;&#xA;> `t.me/{name}?start={link}`&#xA;&#xA;*Количество использований:* {used}&#xA;*Максимальное количество использование*: {maxUsages}&#xA;&#xA;*Активен до:* {expiresAt}&#xA;*{activated}*</value>
+    </data>
+    <data name="Activated" xml:space="preserve">
+        <value>Активирован</value>
+    </data>
+    <data name="Deactivated" xml:space="preserve">
+        <value>Деактивирован</value>
+    </data>
+    <data name="Infinity" xml:space="preserve">
+        <value>ꝏ</value>
+    </data>
+    <data name="LinkToRecipient" xml:space="preserve">
+        <value>*⚠️  Перейдите по ссылке получателя, чтобы отправить ему анонимное сообщение*</value>
+    </data>
+    <data name="MessageCooldown" xml:space="preserve">
+        <value>*⌛  Подождите {time} секунд перед отправкой следующего сообщения*</value>
+    </data>
+    <data name="MessageIsTooLong" xml:space="preserve">
+        <value>*⚠️  Максимальная длина сообщения: {length} символов*</value>
+    </data>
+    <data name="MessageSent" xml:space="preserve">
+        <value>*📤  Ваше анонимное сообщение отправлено*</value>
+    </data>
+    <data name="MissingLinks" xml:space="preserve">
+        <value>*🔗  Ссылки отсутствуют*</value>
+    </data>
+    <data name="Month" xml:space="preserve">
+        <value>{price} за 30 дней</value>
+    </data>
+    <data name="NewMessage" xml:space="preserve">
+        <value>*✉️  Новое анонимное сообщение:*&#xA;&#xA;</value>
+    </data>
+    <data name="None" xml:space="preserve">
+        <value>Отсутствует</value>
+    </data>
+    <data name="OnlySubscriber" xml:space="preserve">
+        <value>Только с подпиской</value>
+    </data>
+    <data name="OnlyTextMessage" xml:space="preserve">
+        <value>*⚠️  Отправьте только текстовое сообщение*</value>
+    </data>
+    <data name="Payment" xml:space="preserve">
+        <value>*💸  Оплата — выберите валюту и платежную систему*</value>
+    </data>
+    <data name="ProfileInfo" xml:space="preserve">
+        <value>*👁️  Вся необходимая информация о вашем профиле*&#xA;&#xA;*ID:* {userId}&#xA;*Регистрация:* {registeredAt}&#xA;&#xA;*Подписка до:* {expiresAt}&#xA;*Лимит сообщений в сутки:* {messagesToday}/{messagesLimit}</value>
+    </data>
+    <data name="Purchase" xml:space="preserve">
+        <value>Оплатить</value>
+    </data>
+    <data name="PurchaseSubscription" xml:space="preserve">
+        <value>Приобрести подписку</value>
+    </data>
+    <data name="ReasonAdded" xml:space="preserve">
+        <value>*💬  Причина добавлена*</value>
+    </data>
+    <data name="RecipientUnavailable" xml:space="preserve">
+        <value>*🛜  Получатель недоступен*</value>
+    </data>
+    <data name="RemoveReason" xml:space="preserve">
+        <value>Удалить причину</value>
+    </data>
+    <data name="Respond" xml:space="preserve">
+        <value>Ответить</value>
+    </data>
+    <data name="SelectLanguage" xml:space="preserve">
+        <value>*🌐  Выберите язык*</value>
+    </data>
+    <data name="SendNewExpiresAt" xml:space="preserve">
+        <value>*🕐  Отправьте новую дату \(в днях\), до которой будет действовать ссылка*</value>
+    </data>
+    <data name="SendNewMaxUsages" xml:space="preserve">
+        <value>*🔢  Отправьте новое максимальное количество использований*</value>
+    </data>
+    <data name="LinkLimit" xml:space="preserve">
+        <value>*🔗  Вы достигли лимита ссылок*</value>
+    </data>
+    <data name="SendReason" xml:space="preserve">
+        <value>*💬  Отправьте причину*</value>
+    </data>
+    <data name="SenderAlreadyBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Отправитель уже заблокирован*</value>
+    </data>
+    <data name="SenderBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Отправитель заблокирован*</value>
+    </data>
+    <data name="SenderNotBanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Отправитель не заблокирован*</value>
+    </data>
+    <data name="SenderUnbanned" xml:space="preserve">
+        <value>*🧑‍⚖️  Отправитель разблокирован*</value>
+    </data>
+    <data name="ShareLink" xml:space="preserve">
+        <value>Поделиться ссылкой</value>
+    </data>
+    <data name="SubmitYourMessage" xml:space="preserve">
+        <value>*✍️  Отправьте ваше анонимное сообщение*</value>
+    </data>
+    <data name="Subscription" xml:space="preserve">
+        <value>*⭐  Подписка снимает ограничения и открывает доступ к расширенным возможностям*</value>
+    </data>
+    <data name="SuccessfulPayment" xml:space="preserve">
+        <value>*💸  Оплата прошла\. Подписка активирована\!*</value>
+    </data>
+    <data name="Unban" xml:space="preserve">
+        <value>Разблокировать</value>
+    </data>
+    <data name="Week" xml:space="preserve">
+        <value>{price} за 7 дней</value>
+    </data>
+    <data name="Year" xml:space="preserve">
+        <value>{price} за 365 дней</value>
+    </data>
+    <data name="YourLink" xml:space="preserve">
+        <value>*🔗  Ваша ссылка для анонимных сообщений*&#xA;&#xA;> `t.me/{name}?start={link}`</value>
+    </data>
+    <data name="YourLinks" xml:space="preserve">
+        <value>*Список ваших ссылок*</value>
+    </data>
+    <data name="Edit" xml:space="preserve">
+        <value>Редактировать</value>
+    </data>
+    <data name="Deactivate" xml:space="preserve">
+        <value>Деактивировать</value>
+    </data>
+    <data name="Remove" xml:space="preserve">
+        <value>Удалить</value>
+    </data>
+    <data name="UsageCount" xml:space="preserve">
+        <value>Количество использований</value>
+    </data>
+    <data name="ExpirationDate" xml:space="preserve">
+        <value>Срок действия</value>
+    </data>
+</root>
